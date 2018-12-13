@@ -20,9 +20,9 @@ Scanner scanner = null;
     " " + "Amount: " +
     mAmount);
     }
-    } catch (FileNotFoundException e) {
+    }  catch (FileNotFoundException e) {
     e.printStackTrace();
-    } finally {
+    } finally { 
     	 scanner.close();
     	 }
     	 System.out.println("Total: " + mSum);
