@@ -7,8 +7,8 @@ public static void main(String[] args) {
 Scanner scanner = null;
    int mSum = 0;
    int mAmount = 0;
-    String mCustomer = "";
-    try {
+      String mCustomer = "";
+    try {  
     scanner = new Scanner(new File("src/consume.txt"));
     while (scanner.hasNext()) {
     mCustomer = scanner.next();
